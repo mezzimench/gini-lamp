@@ -1,10 +1,7 @@
 == README
 
 This README covers the new_option app that helps people who have no more options.
-
-Things you may want to cover:
-
-* Ruby version > 2.1
+Deploy this app when your options have run out.
 
 * System dependencies
 ```
@@ -70,20 +67,42 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
          run  bundle exec spring binstub --all
 * bin/rake: spring inserted
 * bin/rails: spring inserted
+
 ```
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite:
-* Test suite will be ran in Rspec.
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Rails version 4.2.0
+Ruby version  2.2.0-p0 (x86_64-darwin14)
+RubyGems version  2.4.6
+Rack version  1.5
+JavaScript Runtime  JavaScriptCore
+Middleware  
+Rack::Sendfile
+ActionDispatch::Static
+Rack::Lock
+#<ActiveSupport::Cache::Strategy::LocalCache::Middleware:0x007facb4901c90>
+Rack::Runtime
+Rack::MethodOverride
+ActionDispatch::RequestId
+Rails::Rack::Logger
+ActionDispatch::ShowExceptions
+ActionDispatch::DebugExceptions
+ActionDispatch::RemoteIp
+ActionDispatch::Reloader
+ActionDispatch::Callbacks
+ActiveRecord::Migration::CheckPending
+ActiveRecord::ConnectionAdapters::ConnectionManagement
+ActiveRecord::QueryCache
+ActionDispatch::Cookies
+ActionDispatch::Session::CookieStore
+ActionDispatch::Flash
+ActionDispatch::ParamsParser
+Rack::Head
+Rack::ConditionalGet
+Rack::ETag
+Application root  /Users/hja/code/new_options
+Environment development
+Database adapter  sqlite3
+Database schema version 0
+```
 * Deploy this app after gini lamp has been rubbed.
 
 * ...
